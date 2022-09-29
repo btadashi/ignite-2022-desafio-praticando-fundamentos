@@ -1,0 +1,70 @@
+.todoForm {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: -3.75rem;
+}
+
+.todoForm textarea {
+  width: 39.875rem;
+  height: 3.375rem;
+  border-radius: 8px;
+  border: 0;
+  background: var(--gray-500);
+  padding: 1rem;
+  line-height: 1.4;
+  font-size: 1rem;
+  color: var(--gray-100);
+  resize: none;
+}
+
+.todoForm textarea placeholder {
+  color: var(--gray-300);
+  font-size: 1rem;
+}
+
+.todoForm button[type='submit'] {
+  width: 5.625rem;
+  height: 3.25rem;
+  border: 0;
+  border-radius: 8px;
+  background: var(--blue-500);
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+
+  transition: background-color 0.1s;
+}
+
+.todoForm button[type='submit']:hover {
+  background: var(--blue-300);
+}
+
+.todoList {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.todoInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todoInfo span {
+  color: var(--blue-300);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.todoInfo span > span {
+  padding: 0.25rem 0.75rem;
+  margin-left: 0.5rem;
+  background: var(--gray-400);
+  border-radius: 999px;
+  color: var(--gray-100);
+  font-weight: 700;
+}

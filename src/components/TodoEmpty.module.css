@@ -1,0 +1,29 @@
+.todoEmpty {
+  width: 100%;
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.todoEmpty img {
+  margin-top: 4rem;
+  width: 56px;
+  height: 56px;
+}
+
+.todoEmpty strong {
+  margin-top: 1rem;
+  font-weight: 700;
+  color: var(--gray-300);
+  line-height: 1.4;
+}
+
+.todoEmpty p {
+  color: var(--gray-300);
+  line-height: 1.4;
+}
